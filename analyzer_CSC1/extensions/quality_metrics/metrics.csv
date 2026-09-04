@@ -1,0 +1,5 @@
+,num_spikes,firing_rate,presence_ratio,isi_violations_ratio,isi_violations_count,rp_contamination,rp_violations,sliding_rp_violation,sync_spike_2,sync_spike_4,sync_spike_8,firing_range
+0,438,0.31309126243954744,0.8260869565217391,9.722852074254776,4,0.0,0,,0.0,0.0,0.0,1.8
+1,11638,8.319077881898295,1.0,0.0,0,0.0,0,,0.0,0.0,0.0,10.239999999999993
+2,6975,4.985871131314711,1.0,0.0,0,0.0,0,,0.0,0.0,0.0,5.999999999999999
+3,2360,1.686975751957379,1.0,0.0,0,0.0,0,,0.0,0.0,0.0,6.2

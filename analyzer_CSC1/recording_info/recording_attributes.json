@@ -1,0 +1,41 @@
+{
+    "channel_ids": [
+        "168"
+    ],
+    "sampling_frequency": 32768.0,
+    "num_channels": 1,
+    "num_samples": [
+        45840896
+    ],
+    "is_filtered": false,
+    "properties": {
+        "gain_to_uV": [
+            0.09765923181248581
+        ],
+        "offset_to_uV": [
+            0.0
+        ],
+        "physical_unit": [
+            "uV"
+        ],
+        "gain_to_physical_unit": [
+            0.09765923181248581
+        ],
+        "offset_to_physical_unit": [
+            0.0
+        ],
+        "channel_name": [
+            "LA1"
+        ],
+        "location": [
+            [
+                0.0,
+                0.0
+            ]
+        ],
+        "group": [
+            0
+        ]
+    },
+    "dtype": "int16"
+}
