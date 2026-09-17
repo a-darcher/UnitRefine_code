@@ -1,0 +1,3 @@
+,trough_index,trough_width_left,trough_width_right,trough_half_width_left,trough_half_width_right,peak_before_index,peak_before_width_left,peak_before_width_right,peak_before_half_width_left,peak_before_half_width_right,peak_after_index,peak_after_width_left,peak_after_width_right,peak_after_half_width_left,peak_after_half_width_right
+0,850,727,853,666,963,475,332,601,-1,-1,940,-1,-1,618,964
+1,780,660,851,668,891,455,276,586,411,542,940,-1,-1,610,956

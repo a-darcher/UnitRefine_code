@@ -1,0 +1,41 @@
+name: unitrefine
+
+channels:
+  - conda-forge
+
+dependencies:
+  # Core Python
+  - python=3.11
+  - pip
+
+  # Numerical stack
+  - numpy=1.26.4
+  - scipy
+  - pandas
+  - scikit-learn
+  - numba
+  - h5py
+  - xarray
+
+  # # SpikeInterface ecosystem
+  # - neo
+  # - probeinterface
+
+  # Visualization / analysis
+  - matplotlib
+  - seaborn
+  - networkx
+  - tqdm
+  - joblib
+  - threadpoolctl
+
+  # Useful scientific/data packages
+  - numcodecs
+  - packaging
+
+  # Jupyter
+  - jupyterlab
+  - ipykernel
+
+  - pip:
+      - "spikeinterface[full]==0.104.8"

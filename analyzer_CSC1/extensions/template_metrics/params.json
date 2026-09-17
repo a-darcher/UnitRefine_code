@@ -1,0 +1,74 @@
+{
+    "metric_names": [
+        "peak_to_trough_duration",
+        "waveform_ratios",
+        "half_width",
+        "repolarization_slope",
+        "recovery_slope",
+        "waveform_baseline_flatness",
+        "number_of_peaks",
+        "velocity_fits",
+        "exp_decay",
+        "spread"
+    ],
+    "metrics_to_compute": [
+        "peak_to_trough_duration",
+        "waveform_ratios",
+        "half_width",
+        "repolarization_slope",
+        "recovery_slope",
+        "waveform_baseline_flatness",
+        "number_of_peaks",
+        "velocity_fits",
+        "exp_decay",
+        "spread"
+    ],
+    "delete_existing_metrics": false,
+    "metric_params": {
+        "peak_to_trough_duration": {},
+        "half_width": {},
+        "repolarization_slope": {},
+        "recovery_slope": {
+            "recovery_window_ms": 0.7
+        },
+        "number_of_peaks": {},
+        "main_to_next_extremum_duration": {},
+        "waveform_ratios": {},
+        "waveform_widths": {},
+        "waveform_baseline_flatness": {
+            "baseline_window_ms": [
+                0.0,
+                0.5
+            ]
+        },
+        "velocity_fits": {
+            "min_channels": 3,
+            "min_r2": 0.2,
+            "column_range": null
+        },
+        "exp_decay": {
+            "peak_function": "ptp",
+            "min_r2": 0.2,
+            "linear_fit": false,
+            "channel_tolerance": null,
+            "min_channels_for_fit": null,
+            "num_channels_for_fit": null,
+            "normalize_decay": false
+        },
+        "spread": {
+            "spread_threshold": 0.2,
+            "spread_smooth_um": 20,
+            "column_range": null
+        }
+    },
+    "periods": null,
+    "peak_sign": "both",
+    "upsampling_factor": 10,
+    "template_operator": "average",
+    "include_multi_channel_metrics": false,
+    "depth_direction": "y",
+    "min_thresh_detect_peaks_troughs": 0.3,
+    "edge_exclusion_ms": 0.09,
+    "min_peak_trough_distance_ratio": 0.2,
+    "min_extremum_distance_samples": 3
+}

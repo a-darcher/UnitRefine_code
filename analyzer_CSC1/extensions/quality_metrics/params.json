@@ -3,21 +3,33 @@
         "num_spikes",
         "firing_rate",
         "presence_ratio",
+        "snr",
         "isi_violation",
         "rp_violation",
         "sliding_rp_violation",
         "synchrony",
-        "firing_range"
+        "firing_range",
+        "sd_ratio",
+        "amplitude_cutoff",
+        "amplitude_median",
+        "amplitude_cv",
+        "drift"
     ],
     "metrics_to_compute": [
         "num_spikes",
         "firing_rate",
         "presence_ratio",
+        "snr",
         "isi_violation",
         "rp_violation",
         "sliding_rp_violation",
         "synchrony",
-        "firing_range"
+        "firing_range",
+        "sd_ratio",
+        "amplitude_cutoff",
+        "amplitude_median",
+        "amplitude_cv",
+        "drift"
     ],
     "delete_existing_metrics": false,
     "metric_params": {

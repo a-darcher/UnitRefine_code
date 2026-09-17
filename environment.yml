@@ -122,4 +122,5 @@ dependencies:
       - urllib3==2.7.0
       - wrapt==2.4.0
       - zarr==2.18.7
+      - pyarrow
 prefix: /opt/miniconda3/envs/unitrefine

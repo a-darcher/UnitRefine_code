@@ -1,0 +1,5 @@
+{
+    "class": "spikeinterface.metrics.template.template_metrics.ComputeTemplateMetrics",
+    "module": "spikeinterface",
+    "version": "0.104.8"
+}

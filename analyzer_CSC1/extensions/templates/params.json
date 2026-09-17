@@ -2,22 +2,7 @@
     "operators": [
         "average",
         "std",
-        [
-            "percentile",
-            1
-        ],
-        [
-            "percentile",
-            25
-        ],
-        [
-            "percentile",
-            75
-        ],
-        [
-            "percentile",
-            99
-        ]
+        "median"
     ],
     "ms_before": 1.0,
     "ms_after": 2.0

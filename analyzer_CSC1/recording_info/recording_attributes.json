@@ -1,16 +1,16 @@
 {
     "channel_ids": [
-        "168"
+        "176"
     ],
     "sampling_frequency": 32768.0,
     "num_channels": 1,
     "num_samples": [
-        45840896
+        51364000
     ],
     "is_filtered": false,
     "properties": {
         "gain_to_uV": [
-            0.09765923181248581
+            0.030518510385491027
         ],
         "offset_to_uV": [
             0.0
@@ -19,7 +19,7 @@
             "uV"
         ],
         "gain_to_physical_unit": [
-            0.09765923181248581
+            0.030518510385491027
         ],
         "offset_to_physical_unit": [
             0.0
